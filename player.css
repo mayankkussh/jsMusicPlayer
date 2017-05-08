@@ -1,0 +1,70 @@
+body{
+		background-image: url("background.jpg");
+}
+main{
+	display: flex;
+}
+#rest{
+	padding-left: 10px;
+	width: 66%;
+}
+.playlist {
+	background-color: #243C46;
+	color: white;
+	
+}
+#allsongs{
+	height: 642px;
+	width: 33%;
+	padding: 10px;
+	
+}
+
+#playerBox{
+	display: flex;
+	height: 300px;
+	background-color: grey;
+	padding: 10px;
+	
+}
+#controlbox{
+	position: relative;
+	padding-right: 10px;
+	width: 59%;
+	background-color: burlywood;
+}
+#titles{
+	position: absolute;
+	left: 25px;
+	bottom: 100px;
+}
+#controls{
+	position: absolute;
+	bottom: 10px;
+	left: 38px;
+	
+}
+
+#albumart{
+	background-image: url("64.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40%;
+	background-color: beige;
+}
+#myplaylist{
+	display: flex;
+	height: 342px;
+	background-color: forestgreen;
+}
+
+#playlistTitle{
+	width: 33%;
+	height: 342px;
+	background-color: deepskyblue;
+}
+#playlistsongs{
+	width: 67%;
+	height: 342px;
+	background-color: firebrick;
+}

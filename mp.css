@@ -1,0 +1,100 @@
+body{
+	background-image: url("backdrop.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+
+#controls{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 290px;
+	height: 70px;
+	width: 300px;
+	
+	
+}
+#allsongs > #dragdropinstruction{
+	font-size: 15px;
+}
+#container{
+	display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+    height: 32px;
+}
+
+.opacity {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	border-radius: 5px;
+}
+#nowplaying{
+	position: absolute;
+	top: 222px;
+	line-height: 70px;
+	width: 300px;
+	font-size: 25px;
+	text-transform: capitalize;
+	height: 70px;
+}
+#allsongs{
+	position: absolute;
+	right: 20px;
+	width: 400px;
+	height: 590px;
+	overflow: auto;
+}
+#allsongs > div{
+	display: flex;
+	    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#allsongs > ul{
+
+	list-style: none;
+}
+#allsongs > ul > li{
+	padding-top: 7px; 
+	margin-left: -20px;
+	text-transform: capitalize;
+
+}
+#allsongs > ul > li:hover{
+	background-color: #0D1C31;
+	opacity: 0.8;
+
+}
+#delete{
+	position: absolute;
+	bottom: 25px;
+	left: 40%;
+	width: 80px;
+	height: 80px;
+}
+
+#dustbin:hover{
+	height: 90px;
+	width: 90px;
+}
+@media only screen and (max-width: 800px){
+	#nowplaying{
+		top:20px;
+		width: 400px;
+
+	}
+
+	#controls{
+		top: 90px;
+		width: 400px
+	}
+	#allsongs{
+		top: 180px;
+		left: 8px;
+
+	}
+}

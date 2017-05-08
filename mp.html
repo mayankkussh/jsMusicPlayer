@@ -1,0 +1,41 @@
+<head>
+	<title>
+		MP
+	</title>
+	
+	<link rel="stylesheet" type="text/css" href="mp.css">
+	<script src="mp.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<main>
+		<div class="opacity" id="allsongs"> 
+			<div>Playlist</div>
+			<div id="dragdropinstruction">Drop Your Songs Here.</div>
+			<ul id="filelistul"></ul>
+		</div>
+		<div class="opacity" id="nowplaying"></div>
+		<div class="control opacity" id="controls">
+			<div id="container">
+				<img id="play" src="play.png">
+				<img id="pause" src="pause.png">
+				<img id="prev" src="prev.png">
+				<img id="next" src="next.png">
+				<img id="shuffle" src="shuffle.png">
+				<img id="repeat" src="repeat.png">
+				
+			</div>
+		</div>
+		
+		</div>
+			<audio id="player"></audio>
+	</main>
+	  <script>
+            function init() {
+                start.init();
+            }
+            window.addEventListener('load',init);
+        </script>
+</body>
